@@ -1,0 +1,39 @@
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+  background-color: #273041;
+}
+header h1 {
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.current {
+  color: #fff;
+  background-color: #f3794a;
+}
+
+.current li{
+  background-color: #f3794a;
+}
+
+li {
+  background-color: #F2BA4E;
+  padding: .5em;
+  border-radius: 8px;
+  font-weight: bold;
+}
+li a {
+  color: #fff;
+}
+
+.card {
+  background-color: #e2e2e2;
+}
