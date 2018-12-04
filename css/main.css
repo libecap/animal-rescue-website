@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5em;
 }
 
+.bg-light-blue {
+  background-color: #629AC1;
+}
+
 .current {
   color: #fff;
   background-color: #f3794a;
@@ -24,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #f3794a;
 }
 
-li {
+nav li {
   background-color: #F2BA4E;
   padding: .5em;
   border-radius: 8px;
@@ -35,5 +39,49 @@ li a {
 }
 
 .card {
-  background-color: #e2e2e2;
+  max-width: 320px;
+  display: inline-block;
+  margin: 1em;
+}
+
+.adopt li {
+  border: 3pt solid #F3E54C;
+  border-radius: 2pt;
+}
+
+/*Nav Hover Styling*/
+nav li:hover {
+  background-color: #629AC1;
+}
+
+/*Card Hover Styling*/
+.card h3 {
+  background-color: #629AC1;
+  color: #fff;
+  margin: 0;
+}
+.card:hover h3 {
+  background-color: #273041;
+}
+.card:hover {
+  border: 5pt solid #F2BA4E;
+}
+
+.card:hover .btn {
+  background-color: #f3794a;
+  border-color: #f3794a;
+}
+
+/*Call to Action Styling*/
+.call-to-action {
+position: absolute;
+display: block;
+left: 50%;
+top: 90%;
+transform: translate(-50%, -50%);
+}
+
+.call-to-action a {
+  background-color: #629AC1;
+  border-color: #F3E54C;
 }
