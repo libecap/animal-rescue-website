@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, legend {
 }
 
 .bg-light-blue {
-  background-color: #629AC1;
+  background-color: #629ac1;
 }
 
 .current {
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, legend {
 }
 
 nav li {
-  background-color: #F2BA4E;
+  background-color: #f2ba4e;
   padding: .5em;
   border-radius: 8px;
 }
@@ -105,12 +105,12 @@ figure {
 }
 /*Nav Hover Styling*/
 nav li:hover {
-  background-color: #629AC1;
+  background-color: #629ac1;
 }
 
 /*Card Hover Styling*/
 .card h3 {
-  background-color: #629AC1;
+  background-color: #629ac1;
   color: #fff;
   margin: 0;
 }
@@ -118,7 +118,7 @@ nav li:hover {
   background-color: #273041;
 }
 .card:hover {
-  border: 5px solid #F2BA4E;
+  border: 5px solid #f2ba4e;
 }
 
 .card:hover .btn {
@@ -138,8 +138,8 @@ white-space: nowrap;
 }
 
 .call-to-action a {
-  background-color: #629AC1;
-  border-color: #F3E54C;
+  background-color: #629ac1;
+  border-color: #f3e54c;
   text-align: center;
 }
 
