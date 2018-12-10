@@ -1,5 +1,5 @@
 html {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 body {
@@ -36,18 +36,19 @@ footer h6, footer li {
 .personality {
   display: flex;
   flex-wrap: wrap;
-
 }
+
 .personality li {
   flex-basis: 30%;
   padding: .2em .3em;
 }
+
 .contact-info li {
   padding: 0 .5em;
 }
 
 h1, h2, h3, h4, h5, h6, legend {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-weight: bold;
 }
 
@@ -69,6 +70,7 @@ nav li {
   padding: .5em;
   border-radius: 8px;
 }
+
 li a {
   color: #fff;
 }
@@ -78,6 +80,7 @@ li a {
   display: inline-block;
   margin: 1em;
 }
+
 figure {
   background-color: #fff;
   margin: 0;
@@ -87,10 +90,12 @@ figure {
 .card-text p {
   padding: .5em 1em;
 }
+
 .adopt li {
   border: 3px solid #273041;
   border-radius: 2px;
 }
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -100,9 +105,11 @@ figure {
 .nav-h {
   margin-bottom: .5em;
 }
+
 .nav-list {
   margin-bottom: .5em;
 }
+
 /*Nav Hover Styling*/
 nav li:hover {
   background-color: #629ac1;
@@ -114,9 +121,11 @@ nav li:hover {
   color: #fff;
   margin: 0;
 }
+
 .card:hover h3 {
   background-color: #273041;
 }
+
 .card:hover {
   border: 5px solid #f2ba4e;
 }
@@ -133,7 +142,7 @@ display: block;
 left: 50%;
 top: 80%;
 transform: translate(-50%, -50%);
-background-color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, .5);
 white-space: nowrap;
 }
 
@@ -156,7 +165,7 @@ white-space: nowrap;
   left: 50%;
   top: 90%;
   transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, .5);
   }
 
 }
