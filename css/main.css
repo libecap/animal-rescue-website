@@ -2,17 +2,32 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-header {
+main {
+  background-image: url("../images/pat.svg");
+  background-repeat: repeat;
+  background-size: 600px;
+}
+
+header, footer {
   background-color: #273041;
 }
 header h1 {
   color: #fff;
 }
 
+footer h6, footer li {
+  color: #fff;
+}
+.contact{
+
+}
+.contact-info li {
+  padding: 0 .5em;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
-  font-size: 1.5em;
 }
 
 .bg-light-blue {
@@ -43,12 +58,31 @@ li a {
   display: inline-block;
   margin: 1em;
 }
+figure {
+  background-color: #fff;
+  margin: 0;
+  padding-bottom: 1em;
+}
 
+.card-text p {
+  padding: .5em 1em;
+}
 .adopt li {
   border: 3pt solid #F3E54C;
   border-radius: 2pt;
 }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
 
+.nav-h {
+  margin-bottom: .5em;
+}
+.nav-list {
+  margin-bottom: .5em;
+}
 /*Nav Hover Styling*/
 nav li:hover {
   background-color: #629AC1;
@@ -77,11 +111,32 @@ nav li:hover {
 position: absolute;
 display: block;
 left: 50%;
-top: 90%;
+top: 80%;
 transform: translate(-50%, -50%);
+background-color: rgba(255, 255, 255, 0.5);
+white-space: nowrap;
 }
 
 .call-to-action a {
   background-color: #629AC1;
   border-color: #F3E54C;
+  text-align: center;
+}
+
+.call-to-action a:hover {
+  background-color: #f3794a;
+  border-color: #f3794a;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .call-to-action {
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  }
+
 }
