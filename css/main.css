@@ -2,7 +2,7 @@ html {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-main {
+body {
   background-image: url("../images/pat.svg");
   background-repeat: repeat;
   background-size: 600px;
@@ -15,6 +15,18 @@ header h1 {
   color: #fff;
 }
 
+.deck {
+  color: #fff;
+  background-color: #273041;
+}
+
+.pattern {
+  margin: 2em;
+}
+.form {
+  background-color: #fff;
+}
+
 footer h6, footer li {
   color: #fff;
 }
@@ -25,7 +37,7 @@ footer h6, footer li {
   padding: 0 .5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, legend {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
 }
