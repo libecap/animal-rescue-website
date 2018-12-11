@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6, legend {
   font-family: "Amatic SC", cursive;
 }
 
+nav p {
+  font-family: "Amatic SC", cursive;
+}
+
 .bg-light-blue {
   background-color: #629ac1;
 }
@@ -163,13 +167,13 @@ nav li a:hover {
 
 /* Card Hover Styling */
 
-.card h3 {
+.card h2 {
   background-color: #629ac1;
   color: #fff;
   margin: 0;
 }
 
-.card:hover h3 {
+.card:hover h2 {
   background-color: #273041;
 }
 
