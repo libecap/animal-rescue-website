@@ -34,17 +34,17 @@
       </ul>
     </nav>
   </header>
-  <div class="relative">
+  <div class="relative" role="complementary" id="adopt-img" tabindex="0">
     <div class="embed embed-16by9">
-      <img class="embed-item img-flex" src="images/hugging.jpg" alt="">
+      <img class="embed-item img-flex" src="images/hugging.jpg" alt="" tabindex="0" aria-details="about-dachshunds">
     </div>
     <div class="call-to-action inline">
-      <a class="btn" href="adopt.html">
+      <a class="btn" href="adopt.html" id="adopt-btn" tabindex="0">
         <p class="push-0 giga bold">Adopt a dachshund!</p>
       </a>
     </div>
   </div>
-  <div class="deck">
+  <div class="deck" role="complementary" id="volunteer-header" tabindex="0">
     <div class="wrapper gutter-1-2">
       <h1 class="push-none max-length zetta pad-t text-center"><b>Adoption/Volunteer Application</b></h1>
       <p class="pad-t-1-2 max-length pad-b push mega"><b>dachshunds are some of the cutest dogs out there&mdash;we need your help to find them their forever home!</b></p>
@@ -206,6 +206,9 @@
       </div>
       <input type="hidden" name="_subject" value="">
     </form>
+    <div class="text-center pad-b card-btn">
+      <a class="btn btn-light giga push" href="rescues.html" aria-label="adopt">Check out some of the great dachshunds ready to be adopted!</a>
+    </div>
   </main>
   <footer role="contentinfo" id="footer" tabindex="0" class="pad-t-1-2 pad-b-1-2 grid grid-middle text-center list-group-inline">
     <div class="unit unit-s-1-2 unit-m-1-2 unit-s-1-2">

@@ -27,6 +27,10 @@ article a:focus {
   outline: 3px solid #000;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-image: url("../images/pat.svg");
   background-repeat: repeat;
