@@ -47,7 +47,7 @@ header, footer {
 }
 
 .nav li a {
-color: #fff;
+  color: #fff;
 }
 
 footer p, footer li {
@@ -77,8 +77,11 @@ h1, h2, h3, h4, h5, h6, legend {
 }
 
 .current {
-  color: #fff;
   background-color: #f3794a;
+}
+
+.current a {
+  color: #629ac1;
 }
 
 .current li {
@@ -91,7 +94,7 @@ nav li {
   border-radius: 8px;
 }
 
-li a {
+.card li a {
   color: #fff;
 }
 
@@ -134,13 +137,13 @@ figure {
   margin-bottom: .5em;
 }
 
-/*Nav Hover Styling*/
+/* Nav Hover Styling */
 
 nav li:hover {
   background-color: #f2ba4e;
 }
 
-/*Card Hover Styling*/
+/* Card Hover Styling */
 
 .card h3 {
   background-color: #629ac1;
@@ -161,7 +164,7 @@ nav li:hover {
   border-color: #f3794a;
 }
 
-/*Call to Action Styling*/
+/* Call to Action Styling */
 
 .call-to-action {
   position: absolute;
