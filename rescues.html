@@ -11,8 +11,16 @@
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <nav class="pad-t-1-2 pad-b-1-4 grid grid-middle text-center list-group-inline nav">
+  <ul class="skip-links">
+    <li>
+      <a href="#main">Jump to main content</a>
+    </li>
+    <li>
+      <a href="#navigation">Jump to navigation</a>
+    </li>
+  </ul>
+  <header role="banner">
+    <nav role="navigation" id="navigation" tabindex="0" class="pad-t-1-2 pad-b-1-4 grid grid-middle text-center list-group-inline nav">
       <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 nav-h">
       <p class="push-0 zetta inline">Ontario Dachshund Rescue</p>
       </div>
@@ -24,8 +32,8 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <div class="banner relative">
+  <main role="main" id="main" tabindex="0">
+    <div class="relative">
       <div class="embed embed-16by9">
         <img class="embed-item img-flex" src="images/sad-eyes.jpg" alt="">
       </div>
@@ -112,7 +120,7 @@
       </li>
     </ul>
   </main>
-  <footer class="pad-t-1-2 pad-b-1-2 grid grid-middle text-center list-group-inline">
+  <footer role="contentinfo" id="footer" tabindex="0" class="pad-t-1-2 pad-b-1-2 grid grid-middle text-center list-group-inline">
     <div class="unit unit-s-1-2 unit-m-1-2 unit-s-1-2">
       <p class="push-0 inline giga left gutter">contact</p>
     </div>
